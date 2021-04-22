@@ -1,5 +1,15 @@
 # Mask R-CNN for Object Detection and Segmentation
 
+
+
+### This is a fork from [MatterPort/MaskRCNN](MatterPort/MaskRCNN). The code has been updated to work under **Python 3.8** and **Tensorflow 2.4**.
+
+Run `python setup.py install` to install the package.
+
+
+
+-------------------
+
 This is an implementation of [Mask R-CNN](https://arxiv.org/abs/1703.06870) on Python 3, Keras, and TensorFlow. The model generates bounding boxes and segmentation masks for each instance of an object in the image. It's based on Feature Pyramid Network (FPN) and a ResNet101 backbone.
 
 ![Instance Segmentation Sample](assets/street.png)
@@ -187,7 +197,7 @@ If you use Docker, the code has been verified to work on
 3. Run setup from the repository root directory
     ```bash
     python3 setup.py install
-    ``` 
+    ```
 3. Download pre-trained COCO weights (mask_rcnn_coco.h5) from the [releases page](https://github.com/matterport/Mask_RCNN/releases).
 4. (Optional) To train or test on MS COCO install `pycocotools` from one of these repos. They are forks of the original pycocotools with fixes for Python3 and Windows (the official repo doesn't seem to be active anymore).
 
