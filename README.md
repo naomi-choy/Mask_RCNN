@@ -4,6 +4,8 @@
 
 ### This is a fork from [MatterPort/MaskRCNN](MatterPort/MaskRCNN). The code has been updated to work under **Python 3.8** and **Tensorflow 2.4**.
 
+Instructions:
+
 (1) Run `pip install -r requirements.txt` to install the required packages.
 
 (2) Run `python setup.py install` to install the package.
