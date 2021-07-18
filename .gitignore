@@ -57,4 +57,7 @@ pip-delete-this-directory.txt
 venv/
 ENV/
 
+# media
 *.jpg
+*.mp4
+*.avi
